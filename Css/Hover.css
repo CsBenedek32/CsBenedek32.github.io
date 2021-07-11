@@ -1,0 +1,99 @@
+.bg {
+    background: url(../Img/kep1.jpg);
+    background-size: cover;
+    background-position: center;
+    transition: all .5s;
+}
+
+.image__overlay2 {
+    position: absolute;
+    bottom: 0;
+    color: #f1f1f1;
+    width: 100%;
+    transition: .25s ease;
+    opacity:1;
+    color: white;
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+
+
+
+.Overlayv2 
+{
+
+background: rgba(0,0,0 , 0.5);
+ 
+opacity: 0;
+transition: opacity 0.5s;
+}
+.parent:hover .Overlayv2{
+    opacity: 1;
+    
+}
+
+
+
+.Overlayv2 > *{
+    transform:  translateY(210px);
+    transition: transform 0.5s;
+        
+}
+.parent:hover .Overlayv2 > *{
+    transform:  translateY(0px);
+    
+        
+}
+
+
+.parent:hover .child,
+.parent:focus .child{
+  transform: scale(1.2);
+
+}
+.child:hover .image__overlay2{
+    opacity: 0;
+}
+
+
+
+.LMButton{
+    margin-top: 5;
+    margin-bottom: 30;
+    
+    background-color: #ad9463;
+    padding:10;
+    text-align: center;
+    overflow: hidden;
+    border-radius: 45px;
+}
+
+
+.LMButton> a:hover,a:visited,a:active,a:any-link{
+    color:white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
+
+.LMButton:hover{
+  
+    background-color: #56482d;
+    transition:ease 0.40s;
+}
+
+.animation {
+    animation: bounce  3s ease-in-out infinite;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
