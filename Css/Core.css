@@ -112,3 +112,8 @@ padding:20px;
     transition:ease 0.40s;
     color: white;
 }
+
+.py-custom{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
