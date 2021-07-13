@@ -1,4 +1,7 @@
 
+.jumbotron{
+padding-bottom: 0rem !important;
+}
 .Fejlec {
 
     position:sticky;
