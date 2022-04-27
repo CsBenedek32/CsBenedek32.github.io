@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>City Hotel - Foglalás</title>
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="css/parallax.css" rel="stylesheet">
+    <link href="css/main.css" rel="stylesheet">
+    <link href="css/nav.css" rel="stylesheet">
+    <link href="css/car.css" rel="stylesheet">
+    <link href="css/footer.css" rel="stylesheet">
+    <link href="css/nyomtatas.css" rel="stylesheet">
+
+  </head>
+<body>
+  <a class="visually-hidden" href="#tartalom">Tartalomra ugrás:</a>
+  <header class="py-1 header">
+    <div class="container-fluid flex-wrap">        
+      <div class="row my-2 px-5">
+        <div class="col-12 d-flex justify-content-center">
+          <div class="vl"></div>
+          <span class="header-info-left"><a>+36.20.450.0666 </a></span>
+          <div class="vl"></div>
+          <span class="header-info-left"><a><span lang="en">cityhotel@ch.hu</span></a></span>
+          <div class="vl"></div>
+          <span class="header-info-left"><a>SZENT ISTVAN KRT 22, BUDAPEST, 1137, Magyar ország</a></span>
+          <div class="vl"></div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <nav class="navbar navbar-expand-lg sticky-top navbar-light bg-light">
+    <div class="container-fluid mx-5 px-5">
+      <a class="navbar-brand" href="index.html"><img src="img/logo2.png" class="logo" alt="City Hotel logo"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar" aria-controls="mynavbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end " id="mynavbar">
+        <div class="navbar-nav">
+          <a class="nav-link" href="index.html">Föoldal</a>
+          <a class="nav-link" href="szobak.html">Szobák</a>
+          <a class="nav-link" href="kapcsolat.html">Kapcsolat</a>
+          <a class="nav-link here" href="foglalas.html">Foglalás</a>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <div class="parallax img3"></div>
+  <div class="content" id="tartalom">
+    <a class="hc" id="hc" aria-label="High Contrast kapcsolo"><img src="img/hc.svg" alt="Magas Contrast gomb"></a>
+  <article class="bg-light px-1 py-3 text-center">
+    <div class="py-2 mx-auto">
+      <h1 class="display-4 fw-bold">Foglalás:</h1>
+      <div class="col-lg-6 mx-auto"> 
+        <p class="display-6 mb-2">Foglaljon még most kényelmes, belvárosi elhelyezkedésű 3 csillagos szállodánkban!</p>
+        <p class="mlead"> vagy foglaljon <a lang="en" class="kulsolink" href="https://www.booking.com/">www.Booking.com</a> weboldalán</p>
+      </div> 
+    </div>
+  </article>
+  <div class="modal fade" id="mm1" aria-labelledby="mml" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-fullscreen-sm-down modal-dialog-scrollable">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold display-6" id="mml">Foglalás:</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="py-2 my-2 px-3"> 
+            <div class="d-flex justify-content-center">
+              <form id="myform" action="mailto:CityHotel@gmail.hu">
+                <fieldset>
+                  <legend>Személyes adattok:</legend>
+                  <label class="my-2" for="teljesnev">Teljes név:</label>
+                  <input class="my-1 right " maxlength="20"  size="25" required type="text" id="teljesnev" name="teljes nev"><br>
+                  <label class="my-2" for="telefon">Telefonszám:</label>
+                  <input class="my-1 right " maxlength="15"  size="20" required type="tel" id="telefon" name="telefonszam"><br>
+                  <label class="my-2" for="email">Email cim:</label>
+                  <input class="my-1 right " maxlength="30" size="25" required type="email" id="email" name="email">
+                </fieldset>
+                <br>
+                <fieldset>
+                  <legend>Foglalási adattok:</legend>
+                    <table >
+                      <caption>
+                        <details>
+                        <summary>Súgó</summary>
+                        <p class="lead">A táblázatban a foglalni kiván személyek mennyiségét lehet kivalasztani. A sorokban az egyes személy tipusok vannak felsorolva (felnött, diak, gyermek), a második oszlopban a menyiségüket lehet kivalasztani. </p>
+                        </details>
+                        </caption>
+                        <tr>
+                          <th><label for="felnottszam">Felnötek száma:</label></th>
+                          <th><input class="w-100" value="1" required type="number" min="1" max="10" id="felnottszam" name="felnottekszama"></th>
+                        </tr>
+                        <tr>
+                          <td><label for="diakszam">Diakok száma:</label></td>
+                          <td><input class="w-100" value="0" required type="number" min="0" max="10" id="diakszam" name="diakokszama"></td>
+                        </tr>
+                        <tr>
+                          <td><label for="gyerekszam">Gyerekek száma:</label></td>
+                          <td><input class="w-100" value="0" required type="number" min="0" max="10" id="gyerekszam" name="gyerekekszama"></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <label class="my-2" for="erkezesnapja">Érkezés napja:</label>
+                    <input class="my-1 right" min="2022-01-01" max="2030-12-30" required type="date" id="erkezesnapja" name="erkezes napja"><br>
+                    <label class="my-2" for="tavozasnapja">Távozás napja:</label>
+                    <input class="my-1 right" min="2022-01-01" max="2030-12-31" required type="date" id="tavozasnapja" name="tavozas napja"><br>
+                    <label class="my-2" for="szobavalasztas">Szoba választás:</label>
+                    <select class="right my-1" size="1" id="szobavalasztas"  name="szoba valasztas">
+                        <option value="Egyágyas szoba">Egyágyas szoba</option>
+                        <option value="Standard kétágyas szoba">Standard kétágyas szoba</option>
+                        <option value="Franciaágyas szoba">Franciaágyas szoba</option>
+                    </select>
+                </fieldset>
+                <label class="my-2" for="megjegyzes">Más megjegyzes:</label>
+                <textarea class="right" maxlength="500" id="megjegyzes" name="megjegyzes" form="myform" ></textarea>
+                <fieldset>
+                  <input type="radio" checked required id="kartyas" name="fizett" value="kartyaval fizett">
+                  <label for="kartyas">Kártyaval fizettek.</label><br>
+                  <input type="radio" id="kezpenz" name="fizett" value="kezpenzel fizett">
+                  <label for="kezpenz">Kezpénzel fizettek.</label><br>
+                  
+                </fieldset>
+                <input type="checkbox" required id="elfogad" name="elfogadva"> 
+                <label for="elfogad">Elfogadom a felhasznalasi feltételeket.</label>
+                <div class="d-flex justify-content-center my-4 py-1"> 
+                  
+                  <input class="mx-2 px-5 foglalgomb"  type="submit" value="Foglalás">
+                  <input class="mx-2 px-3 foglalgomb" type="reset" value="Alap helyzet"> 
+                </div> 
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <section class="bg-white px-1 py-3 text-center">
+    <div class="py-2 mx-auto">
+      <h1 class="display-4 fw-bold ">Szeretettel várjuk önt!</h1>
+      <a href="#" class="btn foglalgomb btn-lg "  data-bs-toggle="modal" data-bs-target="#mm1">Foglaljon most!</a>
+    </div>
+  </section>
+  </div>
+  <footer class="footer">
+      <div class="container text-center py-3 mx-auto">
+        <h2 class="fw-bold my-3 mb-5 py-3 border-bottom display-5"><span lang="en">City Hotel</span></h2>
+          <ul>
+            <li> <span class="footer-info-center"><a>Telefon: +36.20.442.0488</a></span></li>
+            <li> <span class="footer-info-center"><a>Email:<span lang="en"> cityhotel@ch.hu</span></a></span></li>
+            <li> <span class="footer-info-center"><a>Cim: SZENT ISTVAN KRT 22, BUDAPEST, 1137, Magyar országY</a></span></li>
+            <li> <span class="footer-info-center"><a>Fax: +36.1.317.6396</a></span></li>
+          </ul> 
+        </div>
+        <div class="container border-top text-center ">
+          <a href="https://www.facebook.com" class="fa fa-facebook"></a>
+          <a href="https://www.twitter.com" class="fa fa-twitter"></a>
+          <a href="https://www.youtube.com" class="fa fa-youtube"></a>
+          <a href="https://www.google.com" class="fa fa-google"></a>
+        </div>
+    </footer>
+    <script src="scripts/hc.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+</html>
