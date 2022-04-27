@@ -1,0 +1,123 @@
+body {
+    font-size: 150% !important;
+    font-weight: 400;
+    color: #ffff00 ;
+    background-color: black ;
+}
+
+.mlead{
+    font-size: 110%;
+}
+
+footer{
+    color: #ffff00 !important;
+}
+
+#mynavbar .navbar-nav .here {
+    color:red;
+}
+
+
+.navbar-light .navbar-nav .nav-link  {
+    color:#ffff00;
+}
+
+#mynavbar .navbar-nav a:hover {
+    color:red;
+}
+
+.footer-info-center:hover{
+   color: red;
+}
+
+.display-1{
+    font-size: calc((1.625rem + 4.5vw)*1.2);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.display-4 {
+    font-size: calc((1.475rem + 2.7vw)*1.2);
+    font-weight: 300;
+    line-height: 1.2;
+}
+
+.bg-light,.bg-white{
+    background-color: black  !important;
+}
+
+.content .foglalgomb{
+
+    background-color: white;
+    color:black;
+    font-size: 120%;
+
+}
+
+.content .foglalgomb:hover{
+    background-color: red;
+    color:#ffff00;
+}
+
+.card{
+    background-color: black;
+}
+
+.defaultlink, .defaultlink:active, .defaultlink:visited {
+    color: #ffff00;
+}
+
+.defaultlink:hover{
+    color: red;
+}
+
+.muted-text{
+    color:#ffff00;
+}
+
+caption{
+    color:#ffff00;
+}
+
+input,textarea,select{
+    background-color: red;
+    color:#ffff00;
+}
+
+.modal-body, .modal-header{
+    background-color: black;
+}
+
+.navbar-toggler-icon{
+    background-color: #ffff00;
+}
+
+
+.header-info-left{
+    font-size: 1.1rem;
+    color: #ffff00;
+}
+
+.header-info-left:hover{
+    color:red;
+}
+
+.kulsolink{
+    color: #0c6dfb;
+}
+
+.kulsolink:visited, .kulsolink:active{
+    color: white;
+}
+
+
+body h3
+{
+font-size: 220%!important;
+}
+body h4,
+body h5,
+body h6
+{
+    font-size: 120% !important;
+}

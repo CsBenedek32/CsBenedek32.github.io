@@ -1,0 +1,30 @@
+
+
+body html .content {
+    height: 100%;
+  }
+  
+.parallax {
+    background-image: url('../img/parallax.jpg');
+    height: 48rem; 
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+.parallax.img2{
+  background-image:url('../img/kapcsolatokp.jpg');
+  }
+
+.parallax.img3{
+    background-image:url('../img/foglalasp.jpg');
+}
+
+.parallaxs{
+  height: 100%;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}

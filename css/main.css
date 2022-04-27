@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&subset=devanagari,latin-ext');
+
+body{
+     font-family: 'Poppins', Arial, sans-serif;
+     font-size: 120%;
+     line-height: 180%;
+     color:black;
+}
+
+.kulsolink:hover{
+    color: #a38b5d;
+}
+
+table{
+    width: 100%;
+}
+
+.kulsolink:active, .kulsolink:visited{
+    color: #684b68;
+}
+
+.kulsolink{
+   color: #094fb6;
+}
+
+
+.mlead{
+    font-size: 1.25rem;
+    font-weight: 300;
+}
+
+.footer{
+    background-color: black;
+    color: white;
+}
+
+.header-info-left{
+    margin-left: 2rem;
+    margin-right: 2rem;
+    margin-top: 0.2rem;
+    font-size: 0.9rem;
+    float:left;
+}
+
+.header-info-left:hover{
+    color: #f2ce8a;
+}
+
+.hc{
+   z-index: 999;
+   position: fixed;
+   bottom: 1rem;
+   left:1rem;
+}
+
+.hc> img{
+    width: 3rem;
+}
+
+.gmapclass {
+    width: 100%;
+    height: 100%;
+}
+
+.gmapclassh {
+    height: 26rem;
+}
+
+.paddingbig{
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.muted-text{
+    color:#4e555a;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+
+.header{
+    background-color:#3e3e42;
+    color:white;
+}
+
+
+
+.vl{
+    border-left: 0.15rem solid #a38b5d;
+    height: 75%;
+    margin-top: 0.2rem;
+    
+}
+
+hr{
+    width: 50%;
+    margin: auto;
+}
+
+
+.bg-white{
+    background-color: white;
+}
+
+.bg {
+    background: url(../Img/parallax.jpg);
+    background-size: cover;
+    background-position: center;}
+
+
+.defaultlink,.defaultlink:active,.defaultlink:visited{
+    color: #3e3e42;
+    text-decoration: none;
+}
+
+
+
+.defaultlink:hover{
+    color: #a38b5d;
+}
+
+#video{
+    width: 100%;
+}
+
+.content .foglalgomb{
+   
+    padding-left: 3em;
+    background-color: black;
+    color: white;
+    padding-right: 3em;
+    border-radius: 2.5em;
+    transition: 0.9s;
+}
+
+.content .foglalgomb:hover{
+    background-color: #a38b5d;
+    padding-left: 3em;
+    padding-right: 3em;
+    border-radius: 2.5em;
+    color: #262626;
+}
+
+.teszt{
+    float: right;
+}
+
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.mh2{
+    overflow: hidden;
+   display: block;
+   max-height: 40rem;
+}
+
+
+@media (max-width: 912px) { 
+	.header{
+		display: none;
+    }
+}

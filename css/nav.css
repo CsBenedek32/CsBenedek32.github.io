@@ -1,0 +1,33 @@
+.logo{
+    height: 4rem;
+}
+.navbar{
+    border-bottom: none;
+    box-shadow: 0 5px 20px 0 rgba(138, 155, 165,0.50);
+}
+
+
+
+
+.nav-link{
+    font-weight: 800;
+    font-size: 1.6em;
+    margin-left: 0.5em;
+    transition: all linear 200ms;
+    text-decoration: none;
+    
+}
+
+#mynavbar .navbar-nav .here{
+    color: #a38b5d;
+}
+#mynavbar .navbar-nav  a:hover{
+    color: #a38b5d;
+    
+    
+}
+
+.right{
+    float: right;
+}
+
